@@ -1,0 +1,24 @@
+.btnForms {
+  width: 16.68rem;
+  height: 3.5rem;
+  border-radius: 2rem;
+  background: #b1c909;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 160%;
+  color: #ffffff;
+}
+
+@media (max-width: 1366px) {
+  .btnForms {
+    width: 11.8rem;
+    height: 3.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .btnForms {
+    width: 100%;
+  }
+}

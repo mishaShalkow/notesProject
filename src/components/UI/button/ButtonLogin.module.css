@@ -1,0 +1,10 @@
+.btnForms {
+  width: 7.1rem;
+  height: 3.5rem;
+  border-radius: 2rem;
+  background: #b1c909;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 160%;
+  color: #ffffff;
+}

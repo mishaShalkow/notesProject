@@ -1,0 +1,51 @@
+.input {
+  width: 620px;
+  height: 72px;
+  border-radius: 36px;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 155%;
+  color: dark;
+  padding: 22.5px 0.7rem 1.4rem 0.7rem;
+  margin: 8px 0 24px 0;
+}
+
+.input::placeholder {
+  color: #9da5af;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 150%;
+  padding: 1.4rem 0.7rem 1.4rem 0.7rem;
+}
+
+@media (max-width: 1366px) {
+  .input {
+    width: 482px;
+    height: 72px;
+    margin: 8px 0px 24px;
+    border-radius: 36px;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 155%;
+    color: dark;
+    padding: 22.5px 0.7rem 1.4rem 0.7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .input {
+    width: 576px;
+    height: 72px;
+  }
+}
+
+@media (max-width: 360px) {
+  .input {
+    padding: 0 16px 0 16px;
+    width: 320px;
+    margin: 8px 0 16px 0;
+  }
+  /*   .input:not(:last-child) {
+    margin: 8px 0 0 0;
+  } */
+}
